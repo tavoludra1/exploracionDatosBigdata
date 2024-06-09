@@ -1,0 +1,32 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/universal:2",
+    "hostRequirements": {
+      "cpus": 4
+    },
+    "waitFor": "onCreateCommand",
+    "updateContentCommand": "python3 -m pip install -r requirements.txt",
+    "postCreateCommand": "",
+    "customizations": {
+      "codespaces": {
+        "openFiles": []
+      },
+      "vscode": {
+        "extensions": [
+            "ms-toolsai.jupyter",
+            "ms-python.python",
+            "GitHub.copilot",
+            "GitHub.copilot-chat",
+            "ms-toolsai.vscode-jupyter-cell-tags",
+            "ms-toolsai.jupyter-keymap",
+            "ms-toolsai.jupyter-renderers",
+            "ms-toolsai.vscode-jupyter-slideshow",
+            "ms-python.vscode-pylance",
+            "ms-python.debugpy",
+            "stylelint.vscode-stylelint",
+            "dbaeumer.vscode-eslint",
+            "ms-azuretools.vscode-docker"
+        ]
+      }
+    }
+  }
+  
