@@ -24,7 +24,8 @@
             "ms-python.debugpy",
             "stylelint.vscode-stylelint",
             "dbaeumer.vscode-eslint",
-            "ms-azuretools.vscode-docker"
+            "ms-azuretools.vscode-docker",
+            "mechatroner.rainbow-csv"
         ]
       }
     }
